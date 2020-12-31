@@ -15,7 +15,7 @@ export default {
       description: 'Name of the store',
     },
     {
-      name: 'slicemasters',
+      name: 'slicemaster',
       title: 'Slicemasters Currently Slicing',
       type: 'array',
       of: [{ type: 'reference', to: [{ type: 'person' }] }],
