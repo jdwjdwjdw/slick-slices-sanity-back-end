@@ -21,7 +21,7 @@ export default {
       of: [{ type: 'reference', to: [{ type: 'person' }] }],
     },
     {
-      name: 'holSlices',
+      name: 'hotSlices',
       title: 'Hot Slices available in the case',
       type: 'array',
       of: [{ type: 'reference', to: [{ type: 'pizza' }] }],
